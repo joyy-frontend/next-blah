@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
+import { ServiceLayout } from '@/components/service_layout';
 
-const IndexPage: NextPage = () => <>Hello world</>;
-
+// eslint-disable-next-line react/function-component-definition
+const IndexPage: NextPage = () => <ServiceLayout title="test">test</ServiceLayout>;
 export default IndexPage;
