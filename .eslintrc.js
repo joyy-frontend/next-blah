@@ -33,6 +33,7 @@ module.exports = {
         argsIgnorePattern: 'res|next|stage|^err|on|config|e',
       },
     ],
+    'react/function-component-definition': [2, { namedcomponents: 'arrow-function' }],
     'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: false }],
     'no-param-reassign': [
       2,
